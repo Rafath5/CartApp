@@ -35,7 +35,7 @@ onValue(shoppingListInDB,function(snapshot){
     }
 }
 else{
-    shoppingListel.innerHTML="No items here...yet"
+    shoppingListel.innerHTML="<p> Cart is Empty</p>"
 }
 });
 function clearInputFieldEl(){
